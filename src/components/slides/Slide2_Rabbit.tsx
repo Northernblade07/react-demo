@@ -30,7 +30,7 @@ export default function Slide2({ onNext }: any) {
 
           <AnimatedText
             text="I wanted to give you something that feels like a hug 💕"
-            className="text-5xl md:text-7xl font-bold text-white drop-shadow-[0_0_30px_rgba(255,100,200,0.8)]"
+            className="text-4xl md:text-6xl font-bold text-white drop-shadow-[0_0_30px_rgba(255,100,200,0.8)]"
           />
 
           <AnimatedText
@@ -40,7 +40,7 @@ export default function Slide2({ onNext }: any) {
 
           <button
             onClick={onNext}
-            className="px-8 py-3 rounded-full bg-white/10 backdrop-blur-lg border border-white/20 hover:bg-white/20 transition-all"
+            className="px-7 py-3 rounded-full bg-white/10 backdrop-blur-lg border border-white/20 hover:bg-white/20 transition-all"
           >
             Next →
           </button>

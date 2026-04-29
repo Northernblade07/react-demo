@@ -13,14 +13,14 @@ export default function PolaroidGallery({ onNext }: { onNext: () => void }) {
       className="
         flex flex-col items-center justify-center
         w-full
-        px-3 sm:px-4 md:px-6
+        px-1 sm:px-4 md:px-6
       "
     >
       {/* 📸 Polaroids */}
       <div className="
         flex flex-col md:flex-row
         items-center justify-center
-        gap-5 sm:gap-6 md:gap-10
+        gap-1 sm:gap-6 md:gap-10
         w-full
       ">
 
@@ -31,29 +31,29 @@ export default function PolaroidGallery({ onNext }: { onNext: () => void }) {
           whileHover={{ scale: 1.05, rotate: 0 }}
           className="
             bg-white
-            p-3 sm:p-4 pb-7 sm:pb-8
+            p-1 sm:p-4 pb-3 sm:pb-8
             shadow-2xl rounded-sm
 
-            w-full max-w-[260px] sm:max-w-[280px]
+            w-full max-w-[190px] sm:max-w-[280px]
 
             flex flex-col items-center
           "
         >
           <div className="w-full aspect-square overflow-hidden">
-        <video
-  src="/mem1.mp4"
-  poster="/mem1.jpg"
-  autoPlay
-  muted
-  loop
-  playsInline
-  preload="metadata"
-  className="w-full h-full object-cover"
-/>
+            <video
+              src="/mem1.mp4"
+              poster="/mem1.jpg"
+              autoPlay
+              muted
+              loop
+              playsInline
+              preload="metadata"
+              className="w-full h-full object-cover"
+            />
           </div>
 
           <p className="
-            text-slate-800 text-center mt-3
+            text-slate-800 text-center mt-1
             text-xs sm:text-sm md:text-base
             italic leading-relaxed
             break-words
@@ -70,29 +70,29 @@ export default function PolaroidGallery({ onNext }: { onNext: () => void }) {
           whileHover={{ scale: 1.05, rotate: 0 }}
           className="
             bg-white
-            p-3 sm:p-4 pb-7 sm:pb-8
+            p-1 sm:p-4 pb-3 sm:pb-8
             shadow-2xl rounded-sm
 
-            w-full max-w-[260px] sm:max-w-[280px]
+            w-full max-w-[190px] sm:max-w-[280px]
 
             flex flex-col items-center
           "
         >
           <div className="w-full aspect-square overflow-hidden">
-           <video
-  src="/mem2.mp4"
-  poster="/mem2.jpg"
-  autoPlay
-  muted
-  loop
-  playsInline
-  preload="metadata"
-  className="w-full h-full object-cover"
-/>
+            <video
+              src="/mem2.mp4"
+              poster="/mem2.jpg"
+              autoPlay
+              muted
+              loop
+              playsInline
+              preload="metadata"
+              className="w-full h-full object-cover"
+            />
           </div>
 
           <p className="
-            text-slate-800 text-center mt-3
+            text-slate-800 text-center mt-1
             text-xs sm:text-sm md:text-base
             italic leading-relaxed
             break-words
@@ -110,8 +110,7 @@ export default function PolaroidGallery({ onNext }: { onNext: () => void }) {
         whileTap={{ scale: 0.95 }}
         onClick={onNext}
         className="
-          mt-8 sm:mt-12 md:mt-14
-
+           sm:mt-12 md:mt-14
           px-6 sm:px-8
           py-3 sm:py-4
 
@@ -121,7 +120,7 @@ export default function PolaroidGallery({ onNext }: { onNext: () => void }) {
           bg-gradient-to-r from-pink-500 via-rose-500 to-purple-500
           shadow-[0_0_25px_rgba(236,72,153,0.5)]
 
-          w-full max-w-[240px]
+          w-full max-w-[210px]
         "
       >
         Now, Make a Wish 🌠
